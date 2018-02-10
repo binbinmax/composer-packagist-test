@@ -1,0 +1,31 @@
+{
+    "name": "bin/composer",
+    "description": "Testing and publishing composer packages",
+    "keywords": ["laravel","composer"],
+    "homepage": "https://github.com/binbinmax/composer-packagist-test",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^5.6.3 || ^7.0",
+        "overtrue/wechat": "3.2.5"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Composer\\Bin\\": "src/"
+    	}
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+          "name": "bin",
+          "email": "185910700@qq.com",
+          "homepage": "https://www.vueyun.com"
+        }
+    ],
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
