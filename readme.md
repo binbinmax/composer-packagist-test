@@ -6,6 +6,6 @@ https://github.com/binbinmax/composer-packagist-test
 ### test/
 
 ```
-$ cnpm i doc.vueyun.com/ceshi/
+$ https://packagist.org/packages/bin/composer#v1.0.0
 
 ```
